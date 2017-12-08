@@ -1,8 +1,8 @@
+var loc = "";
 $(document).ready(function(){
 	putClicker(100, 0, 100, 100);
 	$("#img2").click(function() {
-		//TODO aller à la page
-		alert("hello");
+		document.location.href = loc;
 	});
 });
 

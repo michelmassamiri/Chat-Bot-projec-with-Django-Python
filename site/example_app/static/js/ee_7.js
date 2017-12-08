@@ -1,3 +1,4 @@
+var loc = "";
 $(document).ready(function() {
 	var key = '';
 	var count = 0;
@@ -14,7 +15,7 @@ $(document).ready(function() {
 			if(hash == okhash1 || hash == okhash2 || hash == okhash3 || hash == okhash4)
 			{
 				//TODO le post et l'uglify
-				document.location.href = "http://www.google.com";
+				document.location.href = loc;
 			}
 			count = 0;
 			key = '';
