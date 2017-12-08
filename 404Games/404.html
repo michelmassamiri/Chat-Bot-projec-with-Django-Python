@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <script src="jquery.min.js"></script>
+  <script src='game.js'></script>
+  <script src="anim.js"></script>
+  <link rel="stylesheet" href="design.css"/>
+</head>
+<body>
+  <!-- Canvas de l'animation 404 -->
+  <canvas id="canvas0"></canvas>
+
+  <!-- Canvas du jeu -->
+  <canvas style="display:none;" id="canvas" width="600" height="300"></canvas>
+
+  <!-- Règle du jeu (apparait au lancement du jeu) -->
+  <p id="legende" style="display:none;">Des conducteurs s'endorment au volant, vous devez les réveiller. Les voitures vertes sont les conducteurs éveillés, les rouges sont les conducteurs qui s'endorment et les jaunes sont les conducteurs sauvés.<br><br>
+    Cliquez sur les voitures rouges pour réveiller les conducteurs. Chaque conducteur sauvé vous rapporte 1 point. Si vous cliquez sur un conducteur vert (pas endormi), vous perdez 1 point.</p>
+
+  </body>
+</html>
+
+<!-- Nuit de l'info 2017 : Défi "404Games" -->
+<!-- WROBLEWSKI PIERRE -->
+<!-- PAVARINO ARTHUR -->

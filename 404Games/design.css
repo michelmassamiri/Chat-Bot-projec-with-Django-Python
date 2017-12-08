@@ -1,0 +1,30 @@
+body {
+  margin:0;
+  padding: 0;
+  background: #4b67d6;
+}
+#canvas0{
+  display:block;
+  margin: 0 auto;
+  margin:0;
+  padding:0;
+  background: #4b67d6;
+}
+
+#canvas{
+
+  display:block;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding:0;
+}
+
+p#legende{
+  width: 800px;
+  display: block;
+  margin:auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: arial,verdana,sans-serif;
+  color:#c9c9c9;
+}
