@@ -1,0 +1,42 @@
+
+{% load staticfiles %}
+<!doctype html>
+<html>
+  <head>
+    <title>Django ChatterBot Example</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}"/>
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jscolor.min.js' %}"></script>
+  </head>
+  <body>
+
+    {% include 'nav.html' %}
+
+    <div class="container">
+
+      <div class="jumbotron mt-1">
+        <h1 class="jumbotron-heading text-xs-center">LCL : Le Chat Légendaire</h1>
+        <hr class="my-2">
+
+        <div class="row">
+          <div class="col-xs-6 offset-xs-3">
+            <ul class="list-group chat-log js-chat-log">
+            </ul>
+
+            <div class="input-group input-group-lg mt-1">
+	              <form method="POST">
+					<input type="hidden" name="A1011E">
+					<input class="jscolor" value="2E7BFF">
+					<input type="submit" name="submit" value="envoyer">
+				</form>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>

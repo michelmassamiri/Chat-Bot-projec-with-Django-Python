@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.wellsized {
+  min-height: 500px; }
+
+h1 {
+  color: #1f368b; }
+
+footer {
+  border-top: 1px #ffd204 solid;
+  width: 90%;
+  margin: auto; }
+
+footer > p {
+  padding-top: 10px;
+  text-align: center;
+  color: #00bbef; }
+
+/*# sourceMappingURL=style.css.map */

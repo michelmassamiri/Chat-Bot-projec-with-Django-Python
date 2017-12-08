@@ -1,0 +1,29 @@
+$bleuMoche1 : #1f368b;
+$bleuMoche2 : #00bbef;
+$jauneMoche : #ffd204;
+$grisMoche : #afb5b7;
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wellsized {
+	min-height : 500px;
+}
+
+h1 {
+	color : $bleuMoche1;
+}
+
+footer{
+	border-top : 1px $jauneMoche solid;
+	width:90%;
+	margin: auto; 
+}
+
+footer > p {
+	padding-top : 10px;
+	text-align : center; 
+	color : $bleuMoche2;
+}
