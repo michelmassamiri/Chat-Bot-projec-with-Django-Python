@@ -12,3 +12,12 @@ class ee_3(TemplateView):
 
 class ee_4(TemplateView):
 	template_name = "ee_5.html"	
+
+class ee_5(TemplateView):
+	template_name = "ee_6.html"
+
+class ee_6(TemplateView):
+	template_name = "ee_7.html"
+
+class ee_7(TemplateView):
+	template_name = "ee_8.html"
