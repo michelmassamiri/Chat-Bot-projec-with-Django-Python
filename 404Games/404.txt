@@ -1,0 +1,6 @@
+Bonjour, voici notre jeu pour le défi 404Games.
+Accès au jeu : /404.html
+But du jeu : Des conducteurs s'endorment au volant, vous devez les réveiller. Les voitures vertes sont les conducteurs éveillés, les rouges sont les conducteurs qui s'endorment et les jaunes sont les conducteurs sauvés.
+Description : Ce jeu est codé en HTML5, CSS3, Javascript et Canvas. Les utilisateurs y accèderont en ayant une erreur 404.
+
+Enjoy ;) 
