@@ -1,0 +1,39 @@
+
+{% load staticfiles %}
+<!doctype html>
+<html>
+  <head>
+    <title>Django ChatterBot Example</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}"/>
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+  </head>
+  <body>
+
+    {% include 'nav.html' %}
+
+    <div class="container">
+
+      <div class="jumbotron mt-1">
+        <h1 class="jumbotron-heading text-xs-center">LCL : Le Chat Légendaire</h1>
+        <hr class="my-2">
+
+        <div class="row">
+          <div class="col-xs-6 offset-xs-3">
+            <ul class="list-group chat-log js-chat-log">
+            </ul>
+
+            <div id="img">
+              <img src="{% static 'img/img.jpg' %}">
+              <div id="img2"></div>
+            </div>
+            
+            <p>Voici l'équipe de développement du chat bot! De gauche à droite : Enzo Peruzzetto (M1 info, U-bordeaux), Michel Massamiri (M1 info, U-bordeaux), Corentin Latapy (L3 info, U-Bordeaux) et Florien Morel (L3 info, U-bordeaux).</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
