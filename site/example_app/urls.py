@@ -8,6 +8,7 @@ from example_app.views import ee_4
 from example_app.views import ee_5
 from example_app.views import ee_6
 from example_app.views import ee_7
+from example_app.views import ee_8
 
 urlpatterns = [
     url(r'^$', ChatterBotAppView.as_view(), name='main'),
@@ -19,5 +20,7 @@ urlpatterns = [
     url(r'^ncziy/', ee_5.as_view(), name='main5'),
     url(r'^8bajf/', ee_6.as_view(), name='main6'),
     url(r'^1snpa/', ee_7.as_view(), name='main7'),
+    url(r'^42/', ee_8.as_view(), name='main8'),
+
 
 ]

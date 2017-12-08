@@ -21,3 +21,6 @@ class ee_6(TemplateView):
 
 class ee_7(TemplateView):
 	template_name = "ee_8.html"
+
+class ee_8(TemplateView):
+	template_name = "ee_final.html"
