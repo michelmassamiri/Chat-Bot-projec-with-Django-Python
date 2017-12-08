@@ -13,6 +13,11 @@
     src: url('../police/corporateSRegular.ttf');
 }
 
+@font-face{
+    font-family: 'Corporate S Bold';
+    src: url('../police/corporateSBold.ttf');
+}
+
 /* Alternate the background color of the output rows */
 .list-group-item:nth-child(even) {
     background-color: #bdf1ac;
@@ -28,10 +33,6 @@
     
 }
 
-#nav_title{
-    margin_top:10px;
-}
-
 .navbar a{
     color:#f7f7f7;
 }
@@ -42,4 +43,28 @@ body{
 
 h1{
     font-family: 'lcl1';
+}
+
+footer{
+    padding: 26px 0 33px;
+    padding-top: 26px;
+    padding-right: 0px;
+    padding-bottom: 33px;
+    padding-left: 0px;
+    text-align: center;
+    background-color: rgb(239, 239,239);
+    width: 100%;
+    position:absolute;
+    bottom:0px;
+}
+
+footer li {
+    display: inline;
+    margin: auto;
+    padding-left: 10px;
+    font-family: Corporate S Bold;
+}
+
+footer a li{
+    color: black;
 }
