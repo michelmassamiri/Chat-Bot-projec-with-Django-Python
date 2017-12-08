@@ -1,6 +1,6 @@
 var loc = "";
 $(document).ready(function(){
-	putClicker(100, 0, 100, 100);
+	putClicker(200, 50, 100, 100);
 	$("#img2").click(function() {
 		document.location.href = loc;
 	});
