@@ -1,0 +1,11 @@
+nose
+mock;python_version<"3"
+codecov
+coverage
+flake8
+lxml
+pyexcel-ods3>=0.1.0
+pyexcel-xls>=0.1.0
+pyexcel-xlsx>=0.1.0
+pyexcel-handsontable
+pyexcel-pygal
