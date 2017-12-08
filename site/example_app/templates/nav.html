@@ -1,11 +1,12 @@
 {% load staticfiles %}
 
-<nav class="navbar navbar-dark bg-inverse navbar-full">
+<nav class="navbar">
 
-  <a class="navbar-brand" href="{% url 'main' %}">
-    <img src="{% static 'img/chatterbot.png' %}" width="30" height="30" class="d-inline-block align-top" alt="ChatterBot">
-    Le Chat Légendaire
-  </a>
+  <span class="navbar-brand">
+    <a href="http://www.lcl.com"><img src="{% static 'img/LCL.png' %}" width="100" height="60" class="d-inline-block align-top" alt="LCL"></a>
+    
+    <a  href="{% url 'main' %}"> Le Chat Légendaire</a>
+  </span>
 
   <ul class="nav navbar-nav float-xs-right">
     <li class="nav-item">

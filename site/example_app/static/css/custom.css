@@ -1,3 +1,18 @@
+@font-face{
+    font-family: 'lcl1';
+    src: url('../police/LCL1\ Medium.ttf');
+}
+
+@font-face{
+    font-family: 'lcl2';
+    src: url('../police/LCL2\ Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Corporate S Regular';
+    src: url('../police/corporateSRegular.ttf');
+}
+
 /* Alternate the background color of the output rows */
 .list-group-item:nth-child(even) {
     background-color: #bdf1ac;
@@ -6,4 +21,25 @@
 .chat-log {
     max-height:200px;
     overflow-y:scroll;
+}
+
+.navbar{
+    background-color: rgb(31, 54, 139);
+    
+}
+
+#nav_title{
+    margin_top:10px;
+}
+
+.navbar a{
+    color:#f7f7f7;
+}
+
+body{
+    font-family: 'Corporate S Regular';
+}
+
+h1{
+    font-family: 'lcl1';
 }
